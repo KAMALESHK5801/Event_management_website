@@ -1,0 +1,241 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body{
+  background-color: #FFD0C7;
+  backdrop-filter: blur(10px);
+}
+.body{
+    background-image:  url(image/background1.avif) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 650px;
+    
+    
+    
+}
+
+  .pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .playwrite {
+    font-family: "Playwrite RO", cursive;
+    font-optical-sizing: auto;
+    font-weight: 0;
+    font-style: normal;
+  }
+  .rock-salt-regular {
+     font-family: "Cal Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .navbar-nav{
+    font-size: large;
+  }
+
+  .nav-item:hover{
+    background-color: #cf5a5f;
+    border-radius: 5px;
+  }
+ 
+  .btn:hover{
+    background-color: #cf5a5f;
+    border-radius: 5px;
+  }
+
+  .why-choose-us {
+    background-color: #f5f0f3;
+    padding: 60px 20px;
+  }
+  
+  .section-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #5a3d44;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  
+  .feature-box {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .feature-box .icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .feature-box h5 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .feature-box p {
+    font-size: 14px;
+    color: #693131;
+  }
+
+  .our-services {
+    background-color:  #f5f0f3;
+    font-weight: bold;
+  }
+  
+  .service-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    height: 100%;
+    transition: transform 0.2s;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .service-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .service-card h5 {
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .service-card p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .service-card a {
+    font-weight: 500;
+    color: #a96c5e;
+    text-decoration: none;
+  }
+  
+  .explore-btn {
+    background-color: #ce853c;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    transition: background-color 0.3s;
+  }
+  
+  .explore-btn:hover {
+    background-color: #d79a5c;
+  }
+
+  .gallery-img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  .carousel-inner {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #000;
+    border-radius: 50%;
+  }
+  .caption-text {
+    font-size: 1rem;
+    font-style: italic;
+    color: #555;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .testimonial {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    margin: 10px;
+  }
+  .testimonial img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  .testimonial h5 {
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  .testimonial p {
+    font-size: 0.95rem;
+    color: #444;
+  }
+  .star-rating {
+    color: #ffc107;
+  }
+
+  .contact-section {
+    background-color: #FFD0C7;
+    padding: 60px 0;
+    color: #1A1A1D;
+  }
+
+  .contact-info h3 {
+    font-weight: bold;
+  }
+
+  .form-box {
+    width: 600px;
+    background-color:  #FFFECE;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  }
+
+  .form-control {
+    border: none;
+    border-bottom: 1px solid #333;
+    border-radius: 0;
+    background-color: transparent;
+    margin-bottom: 15px;
+  }
+
+  .btn-custom {
+    background-color: #ffc107;
+    color: #000;
+    font-weight: bold;
+    width: 100%;
+  }
+
+  .btn-custom:hover {
+    background-color: #B85042;
+  }
+
+  footer{
+    background-color: #d8c2dd;
+    color: black;
+  }
+  .footericon{
+    color: white;
+  }
+  .footericon:hover{
+    color: #000;
+    background-color: white;
+    border-radius: 3px;
+    padding: 3px;
+  }
