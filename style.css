@@ -1,51 +1,58 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+  font-family: "Montserrat", sans-serif;
+}
 body{
   background-color: #FFD0C7;
   backdrop-filter: blur(10px);
 }
-.body{
-    background-image:  url(image/background1.avif) ;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 650px;
-    
-    
-    
+.body {
+  background-image: url("image/background1.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
 }
 
-  .pacifico-regular {
-    font-family: "Pacifico", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
-  .playwrite {
-    font-family: "Playwrite RO", cursive;
-    font-optical-sizing: auto;
-    font-weight: 0;
-    font-style: normal;
-  }
-  .rock-salt-regular {
-     font-family: "Cal Sans", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .navbar-nav{
-    font-size: large;
-  }
+/* Fonts */
+.playwrite {
+  font-family: "Playwrite RO", cursive;
+}
+.rock-salt-regular {
+  font-family: "Cal Sans", sans-serif;
+  font-weight: 700;
+}
 
-  .nav-item:hover{
-    background-color: #cf5a5f;
-    border-radius: 5px;
+/* Navbar */
+.navbar-nav {
+  font-size: 1rem;
+}
+.nav-item:hover {
+  background-color: #cf5a5f;
+  border-radius: 5px;
+}
+.btn:hover {
+  background-color: #cf5a5f;
+  border-radius: 5px;
+}
+
+/* Hero Section */
+.hero-section {
+  height: 100vh;
+  padding-top: 100px; /* prevent navbar overlap */
+  color: #222;
+}
+/* Mobile menu background */
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background-color: #fff;   /* light background */
+    padding: 1rem;
+    border-radius: 8px;
   }
- 
-  .btn:hover{
-    background-color: #cf5a5f;
-    border-radius: 5px;
-  }
+}
+
 
   .why-choose-us {
     background-color: #f5f0f3;
